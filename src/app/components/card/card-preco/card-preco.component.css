@@ -1,0 +1,36 @@
+.container-preco{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-family: 'Calibri';
+}
+
+.preco-titulo{
+    margin-bottom: 3px;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.preco-informacoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.preco-informacoes span {
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 5px;
+}
